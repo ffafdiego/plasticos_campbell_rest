@@ -133,5 +133,3 @@ REST_FRAMEWORK = {
     ],
     'UNICODE_JSON': False,
 }
-
-
