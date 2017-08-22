@@ -2,4 +2,4 @@ Django==1.11.2
 django-filter==1.0.4
 djangorestframework==3.6.3
 gunicorn==19.7.1
-PIL
+Pillow==4.2.1
