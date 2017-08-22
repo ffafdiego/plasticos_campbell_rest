@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'plasticos_cambpell_rest.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'plasticos_berrios',
+        'USER': 'postgres',
+        'PASSWORD': 'Berrios90',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
@@ -133,5 +137,3 @@ REST_FRAMEWORK = {
     ],
     'UNICODE_JSON': False,
 }
-
-
