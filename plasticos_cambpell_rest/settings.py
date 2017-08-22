@@ -137,3 +137,6 @@ REST_FRAMEWORK = {
     ],
     'UNICODE_JSON': False,
 }
+
+import dj_database_url
+DATABASES['default'] =  dj_database_url.config()
