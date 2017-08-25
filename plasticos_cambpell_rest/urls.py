@@ -33,3 +33,4 @@ urlpatterns = [
 ]
 urlpatterns += static('productos/product_images/',document_root="product_images")
 urlpatterns += static('images/product_images/',document_root="product_images")
+urlpatterns += staticfiles_urlpatterns()
